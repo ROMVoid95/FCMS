@@ -36,7 +36,7 @@ requires = [
     'simplejson',
     'semver',
     'discord-webhook',
-    'dictalchemy',
+    'sqldictalchem',
 ]
 
 tests_require = [
@@ -47,7 +47,7 @@ tests_require = [
 
 setup(
     name='FCMS',
-    version='1.1a',
+    version='2.0',
     description='FCMS',
     long_description=README + '\n\n' + CHANGES,
     classifiers=[
@@ -56,9 +56,9 @@ setup(
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: WSGI :: Application',
     ],
-    author='Kenneth Aalberg',
-    author_email='absolver@fuelrats.com',
-    url='https://github.com/FuelRats',
+    author='ROMVoid95',
+    author_email='rom.void95@gmail.com',
+    url='https://github.com/ROMVoid95',
     keywords='web pyramid pylons',
     packages=find_packages(),
     include_package_data=True,

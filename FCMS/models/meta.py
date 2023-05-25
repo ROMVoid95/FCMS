@@ -1,6 +1,6 @@
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.schema import MetaData
-from dictalchemy import DictableModel
+from sqldictalchem import DictableModel
 
 # Recommended naming convention used by Alembic, as various different database
 # providers will autogenerate vastly different names making migrations more
